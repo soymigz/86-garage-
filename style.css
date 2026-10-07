@@ -19,6 +19,10 @@ h2 {
     margin-top: 30px;
 }
 
+h3 {
+    margin-top: 0;
+}
+
 p {
     color: #aeb4bd;
 }
@@ -27,4 +31,30 @@ hr {
     border: none;
     border-top: 1px solid #292d33;
     margin: 25px 0;
+}
+
+/* Dashboard */
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.card {
+    background: #171a1f;
+    border: 1px solid #292d33;
+    border-radius: 14px;
+    padding: 18px;
+}
+
+.card p {
+    margin-bottom: 0;
+}
+
+.number {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 8px 0;
 }
